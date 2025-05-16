@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Тестирование</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: #fafafa;
+        margin: 0;
+        padding: 0;
+      }
+      .tasks-bar {
+        margin: 20px 0 0 15px;
+      }
+      .tasks-bar button {
+        margin-right: 2px;
+        margin-bottom: 5px;
+        padding: 3px 10px;
+        border: 1px solid #707070;
+        background: #fff;
+        font-size: 16px;
+        cursor: pointer;
+      }
+      .tasks-bar button:last-child {
+        background: #eaf7e1;
+        border: 1px solid #7fb47f;
+      }
+      .container {
+        background: #fff;
+        width: 60vw;
+        min-width: 500px;
+        margin: 30px auto 0 auto;
+        border: 1px solid #d1d1d1;
+        border-radius: 2px;
+        box-shadow: 0 2px 7px 0 #eee;
+        padding: 25px 30px 25px 30px;
+      }
+      .container .title {
+        font-weight: bold;
+        font-size: 1.3em;
+        margin-bottom: 10px;
+      }
+      .container .note {
+        font-style: italic;
+        color: #444;
+      }
+      .container button {
+        margin-top: 20px;
+        padding: 7px 25px;
+        font-size: 16px;
+        background: #f3f9fa;
+        border: 1px solid #bcbcbc;
+        border-radius: 1px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tasks-bar">
+      <button>1.1</button>
+      <button>или 1.2</button>
+      <button>2</button>
+      <button>3</button>
+      <button>4</button>
+      <button>5.1</button>
+      <button>или 5.2</button>
+      <button>6.1</button>
+      <button>или 6.2</button>
+      <button>7</button>
+      <button>8</button>
+      <button>9</button>
+      <button>10.1</button>
+      <button>или 10.2</button>
+      <button>закончить</button>
+    </div>
+    <div class="container">
+      <div class="title">Инструкция</div>
+      <div>
+        В верхнем правом углу страницы Вы видите индикатор времени, который
+        активируется сразу после начала тестирования.<br /><br />
+
+        Левее расположена панель, на которой Вы можете
+        <b>выбирать задания, кликая по ним мышкой.</b><br />
+        Вы можете вернуться к любому заданию, если хотите проверить (изменить)
+        ответ.<br />
+        <span class="note"
+          >Не используйте навигацию браузера "назад" – "вперёд".</span
+        ><br />
+        Кликая на квадратик с номером задания, Вы отображаете соответствующий
+        ему текст задания.<br />
+        После ввода ответа на задание обязательно нажмите кнопку "Сохранить
+        введённые ответы".<br /><br />
+
+        Белым цветом на панели заданий отмечаются задания, на которые Вам ещё
+        предстоит ввести ответ.<br />
+        Жёлтым цветом – те, на которые Вы уже ответили.<br />
+        Красной рамкой отмечается задание, на которое Вы отвечаете.<br /><br />
+
+        После окончания тестирования нажмите на кнопку "Закончить" или дождитесь
+        окончания отведённого времени, в этом случае система автоматически
+        завершит тест и отобразит Ваши результаты.
+      </div>
+      <button>Начать тестирование</button>
+    </div>
+  </body>
+</html>
